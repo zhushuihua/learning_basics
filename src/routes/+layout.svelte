@@ -13,6 +13,9 @@
 			<li>
 				<a href="/contact" class:text-zinc-800={$page.url.pathname === '/contact'}>Contact</a>
 			</li>
+			<li>
+				<a href="/blog" class:text-zinc-800={$page.url.pathname === '/blog'}>Blogs</a>
+			</li>
 		</ul>
 	</nav>
 	{@render children()}
