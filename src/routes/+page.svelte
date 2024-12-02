@@ -14,7 +14,7 @@
 </script>
 
 <div>
-	<h1>Home Page</h1>
+	<h1>Home Page 1.1</h1>
 	<div>Hello {data.visited ? 'Friend' : 'Stranger'}</div>
 	<button onclick={moveto}>Go to About</button>
 	{#if $updated}
