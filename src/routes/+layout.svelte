@@ -17,6 +17,9 @@
 				<li>
 					<a href="/blog" class:text-zinc-800={$page.url.pathname === '/blog'}>Blogs</a>
 				</li>
+				<li>
+					<a href="/form" class:text-zinc-800={$page.url.pathname === '/form'}>Form</a>
+				</li>
 			</ul>
 			{#if $navigating}
 				<p>Navigating to {$navigating.to?.url.pathname}</p>
