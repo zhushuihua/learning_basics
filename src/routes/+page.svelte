@@ -17,6 +17,7 @@
 	<h1>Home Page 1.1</h1>
 	<div>Hello {data.visited ? 'Friend' : 'Stranger'}</div>
 	<button onclick={moveto}>Go to About</button>
+	<p>{data.ip}</p>
 	{#if $updated}
 		<p>New Version is detected</p>
 		<button onclick={update}>Update</button>
